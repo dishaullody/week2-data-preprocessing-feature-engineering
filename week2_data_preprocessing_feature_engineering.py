@@ -17,8 +17,8 @@ from sklearn.decomposition import PCA
 # 1. LOAD DATASET
 # ============================================================
 
-# Place titanic.csv in the same folder as this Python file.
-df = pd.read_csv("titanic.csv")
+# Place train.csv in the same folder as this Python file.
+df = pd.read_csv("train.csv")
 
 print("=" * 60)
 print("DATASET OVERVIEW")
